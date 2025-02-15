@@ -1,5 +1,4 @@
 import "./App.css";
-import { ShopItemFunc } from "./components/ShopItemFunc";
 
 function App() {
   const item = {
