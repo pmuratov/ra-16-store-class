@@ -1,6 +1,5 @@
 import { Component } from "react";
-import blackItemImage from "./../../assets/img/item-black.jpg";
-import blueItemImage from "./../../assets/img/item-blue.jpg";
+
 export class ShopItemFunc extends Component {
   render() {
     const { brand, title, description, descriptionFull, price, currency } =
@@ -22,11 +21,6 @@ export class ShopItemFunc extends Component {
             </div>
             <button>Добавить в корзину</button>
           </div>
-          <div className="product-images">
-            <img src={blackItemImage} alt="Black item" />
-            <img src={blueItemImage} alt="Blue item" />
-          </div>
-        </div>
       </div>
     );
   }
