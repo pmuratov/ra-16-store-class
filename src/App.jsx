@@ -1,5 +1,5 @@
+import ShopItemClass from "./components/ShopItemClass/ShopItemClass";
 import "./App.css";
-import { ShopItemFunc } from "./components/ShopItemFunc";
 
 function App() {
   const item = {
@@ -11,6 +11,7 @@ function App() {
     price: 399,
     currency: "£",
   };
+
   return (
     <div className="container">
       <div className="background-element"></div>
@@ -18,7 +19,7 @@ function App() {
         <div className="highlight-overlay"></div>
       </div>
       <div className="window">
-        <ShopItemFunc item={item} />
+        <ShopItemClass item={item} />
       </div>
     </div>
   );
